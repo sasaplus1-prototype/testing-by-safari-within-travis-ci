@@ -5,12 +5,11 @@
     "karma-cli": "^1.0.1",
     "karma-mocha": "^1.3.0",
     "karma-safari-launcher": "^1.0.0",
-    "karma-ios-launcher": "^0.0.3",
     "mocha": "^5.0.4",
     "testcafe": "^0.19.0"
   },
   "private": true,
   "scripts": {
-    "test": "testcafe safari test/testcafe && karma start --single-run --browsers Safari,iOS"
+    "test": "testcafe safari test/testcafe && karma start --single-run --browsers Safari"
   }
 }
